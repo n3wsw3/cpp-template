@@ -38,6 +38,8 @@ Generate Visual Studio Solutions by running `GenerateProject.bat <action>` where
 
 Follow the instructions in [cpp-project](#cpp-project) to change the name to your project. Then add your `.h` files in the include directory and your `.cpp` files in the src directory. Then write tests for the code you added (See [tests](#tests) for more information).
 
+### Adding Libraries
+
 If you want to add another library or replace `GoogleTest` for another Unit Testing Framework:
 
 - Add it as a submodule by running `git submodule add <repository> <path>` where path is a vendor folder, for example `tests/vedor` or `vendor`.
