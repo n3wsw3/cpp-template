@@ -17,4 +17,3 @@ group ""
 
 include "cpp-project"
 include "tests"
--- include "tests/vendor"
